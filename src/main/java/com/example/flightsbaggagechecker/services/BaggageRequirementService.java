@@ -7,7 +7,7 @@ import com.example.flightsbaggagechecker.models.Company;
 import java.util.List;
 
 public interface BaggageRequirementService {
-    List<BaggageRequirement> findByCompanyAndType(Company company, BaggageType type);
+//    List<BaggageRequirement> findByCompanyAndType(Company company, BaggageType type);
 
     List<BaggageRequirement> findAll();
 }

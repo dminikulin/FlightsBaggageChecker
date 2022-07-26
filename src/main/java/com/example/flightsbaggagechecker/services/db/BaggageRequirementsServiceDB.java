@@ -16,10 +16,10 @@ public class BaggageRequirementsServiceDB implements BaggageRequirementService {
     @Autowired
     private BaggageRequirementRepository baggageRequirementRepository;
 
-    @Override
-    public List<BaggageRequirement> findByCompanyAndType(Company company, BaggageType type) {
-        return baggageRequirementRepository.findByCompanyAndType(company, type);
-    }
+//    @Override
+//    public List<BaggageRequirement> findByCompanyAndType(Company company, BaggageType type) {
+//        return baggageRequirementRepository.findByCompanyAndType(company, type);
+//    }
 
     @Override
     public List<BaggageRequirement> findAll() {

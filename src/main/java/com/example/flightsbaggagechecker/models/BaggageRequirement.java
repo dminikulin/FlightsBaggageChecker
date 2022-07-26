@@ -1,7 +1,5 @@
 package com.example.flightsbaggagechecker.models;
 
-import com.example.flightsbaggagechecker.models.BaggageType;
-import com.example.flightsbaggagechecker.models.Company;
 import lombok.*;
 import org.hibernate.annotations.Comment;
 
